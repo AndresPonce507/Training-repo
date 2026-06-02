@@ -18,23 +18,23 @@ describe('FizzBuzz', () => {
 
   // --- Uncomment these ONE AT A TIME as you go green ---
 
-  // it('returns "2" for 2', () => {
-  //   expect(fizzbuzz(2)).toBe('2');
-  // });
+  it('returns "2" for 2', () => {
+    expect(fizzbuzz(2)).toBe('2');
+  });
 
-  // it('returns "Fizz" for 3', () => {
-  //   expect(fizzbuzz(3)).toBe('Fizz');
-  // });
+  it('returns "Fizz" for 3', () => {
+    expect(fizzbuzz(3)).toBe('Fizz');
+  });
 
-  // it('returns "Buzz" for 5', () => {
-  //   expect(fizzbuzz(5)).toBe('Buzz');
-  // });
+  it('returns "Buzz" for 5', () => {
+    expect(fizzbuzz(5)).toBe('Buzz');
+  });
 
-  // it('returns "Fizz" for 6 (multiple of 3)', () => {
-  //   expect(fizzbuzz(6)).toBe('Fizz');
-  // });
+  it('returns "Fizz" for 6 (multiple of 3)', () => {
+    expect(fizzbuzz(6)).toBe('Fizz');
+  });
 
-  // it('returns "FizzBuzz" for 15 (multiple of 3 and 5)', () => {
-  //   expect(fizzbuzz(15)).toBe('FizzBuzz');
-  // });
+  it('returns "FizzBuzz" for 15 (multiple of 3 and 5)', () => {
+    expect(fizzbuzz(15)).toBe('FizzBuzz');
+  });
 });

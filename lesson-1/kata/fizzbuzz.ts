@@ -2,6 +2,14 @@
 // Rule: only write enough code to make the failing test pass — no more.
 
 export function fizzbuzz(n: number): string {
-  // Start empty so the first test fails (RED). Fill in step by step.
-  return '';
+  if (n % 3 === 0 && n % 5 === 0) {
+    return "FizzBuzz";
+  }
+  if (n % 3 === 0) {
+    return 'Fizz';
+  }
+  if (n % 5 === 0) {
+    return 'Buzz';
+  }
+  return String(n);
 }
